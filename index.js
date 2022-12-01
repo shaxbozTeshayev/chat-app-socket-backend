@@ -46,7 +46,7 @@ app.use("/api/conversation", conversationsRoute);
 const httpServer = createServer(app);
 const io = new Server(httpServer, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://chat-app-task-6.netlify.app/",
   },
 });
 
