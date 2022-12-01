@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 require("dotenv").config();
 const morgan = require("morgan");
 const path = require("path");
-const { createServer } = require("https");
+const { createServer } = require("http");
 const { Server } = require("socket.io");
 let app = express();
 const { upload } = require("./helper/helpers");
